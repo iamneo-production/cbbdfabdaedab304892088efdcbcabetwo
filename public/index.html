@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +16,7 @@
   <!-- Enter your code here -->
   <div id="head">
     <h1> Tic Tac Toe </h1>
-    <div class = "board">
+    <div class="board">
       <div class="row">
         <input type="text" id="b1" class="cell" onclick="check_turn1();display()">
         <input type="text" id="b2" class="cell" onclick="chech_turn2();display()">
@@ -31,8 +32,14 @@
       <div class="row">
         <input type="text" id="b7" class="cell" onclick="chech_turn7();display()">
         <input type="text" id="b8" class="cell" onclick="chech_turn8();display()">
-        <input type="text" id="b9" class="cell" onclick="chech_turn2();display()">
+        <input type="text" id="b9" class="cell" onclick="chech_turn9();display()">
       </div>
+    </div>
+
+    <button id="btn" onclick="reset()">Reset</button>
+    <p id="print"></p>
   </div>
+  
 </body>
+
 </html>

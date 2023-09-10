@@ -10,10 +10,10 @@ body {
   }
 h1{
   color: white;
-  margin-bottom: 10px ;
+  margin-bottom: 80px ;
 }
 p{
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 .board{
   display: flexbox;
@@ -58,8 +58,15 @@ p{
   border: 2px solid grey;
 }
 #b8{
-  border: 2px;
+  border: 2px solid grey;
 }
 #b9{
-  border: 2px transparent;
+  border: 2px solid grey;
+}
+#btn{
+  box-sizing: border-box;
+  width: 60px;
+  height:30px;
+  border: black;
+  margin-top: 20px;
 }

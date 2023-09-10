@@ -33,3 +33,33 @@ p{
   text-align: center;
   cursor: default;
 }
+.cell:active{
+  outline: auto;
+}
+#b1{
+  border: 2px solid grey;
+}
+#b2{
+  border: 2px solid grey;
+}
+#b3{
+  border: 2px solid grey;
+}
+#b4{
+  border: 2px solid grey;
+}
+#b5{
+  border: 2px solid grey;
+}
+#b6{
+  border: 2px solid grey;
+}
+#b7{
+  border: 2px solid grey;
+}
+#b8{
+  border: 2px;
+}
+#b9{
+  border: 2px transparent;
+}

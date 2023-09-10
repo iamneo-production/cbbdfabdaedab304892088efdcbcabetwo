@@ -13,7 +13,7 @@ h1{
   margin-bottom: 80px ;
 }
 p{
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .board{
   display: flexbox;
@@ -69,4 +69,10 @@ p{
   height:30px;
   border: black;
   margin-top: 20px;
+  cursor: pointer;
+}
+#print{
+  font-family: 'Times New Roman', Times, serif;
+  color: azure;
+  font-size: 30px;
 }

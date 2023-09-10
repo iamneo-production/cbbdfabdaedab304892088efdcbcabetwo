@@ -57,9 +57,9 @@ function display() {
         b5btn.disabled = true;
         b6btn.disabled = true;
   
-        /* b7btn.style.color = "red";
-        b8btn.style.color = "red";
-        b9btn.style.color = "red"; */
+        b7btn.style.color = "black";
+        b8btn.style.color = "black";
+        b9btn.style.color = "black"; */
     }
     else if ((b3 == 'x' || b3 == 'X') && (b6 == 'x' ||b6 == 'X') && (b9 == 'x' || b9 == 'X')) {
         document.getElementById('print').innerHTML = "Player X won";

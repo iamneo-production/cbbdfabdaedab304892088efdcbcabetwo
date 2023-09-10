@@ -10,9 +10,7 @@ function myfunc() {
     b8 = document.getElementById("b8").value;
     b9 = document.getElementById("b9").value;
   
-    var b1btn, b2btn, b3btn, b4btn, b5btn, 
-        b6btn, b7btn, b8btn, b9btn;
-          
+    var b1btn, b2btn, b3btn, b4btn, b5btn, b6btn, b7btn, b8btn, b9btn;     
     b1btn = document.getElementById("b1");
     b2btn = document.getElementById("b2");
     b3btn = document.getElementById("b3");
